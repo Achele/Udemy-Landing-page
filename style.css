@@ -30,8 +30,31 @@ img {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 nav img {
-  width: 50px;
+  width: 100px;
+}
+nav p {
+  font-weight: 200;
+  font-size: 0.5em;
+}
+nav input {
+  border-radius: 2em;
+  padding: 1.3em 2.5em;
+  width: 40%;
+  border: 1px solid #1c1d1f;
+  background-color: #f7f9fa;
+  margin: 0 1.2rem;
+}
+.fa-cart-shopping {
+  font-size: 0.5em;
+}
+nav button {
+  border: 1px solid;
+  padding: 1em;
+}
+.sign-up {
+  background: black;
+  color: white;
 }
