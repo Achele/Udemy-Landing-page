@@ -115,10 +115,12 @@ h1 {
 .available-course {
   padding: 1em;
 }
-.available-course > h3 {
+.available-course > h3,
+.views > h3 {
   font-size: 1em;
 }
-.available-course > p {
+.available-course > p,
+.views > p {
   font-size: 0.8em;
   font-weight: 200;
 }
@@ -128,6 +130,15 @@ h1 {
   color: rgb(255, 174, 0);
   font-size: 0.5em;
 }
+.small {
+  font-size: 0.5em;
+  font-weight: 300;
+  color: #1c1d1f;
+}
+.stroke-thru {
+  text-decoration: line-through;
+  font-weight: 300;
+}
 .python {
   border: 1px solid black;
   padding: 0.3em 1em;
@@ -135,4 +146,21 @@ h1 {
   margin: 1em;
   color: #1c1d1f;
   font-weight: bolder;
+}
+
+/* VIEWINGS */
+.viewing {
+  padding: 2em;
+}
+.views-wrapper {
+  display: flex;
+  padding: 2em 0;
+}
+.views {
+  padding: 1em;
+}
+.views img {
+  width: 100px;
+  border: 2px solid yellow;
+  /* height: 100%; */
 }
