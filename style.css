@@ -100,3 +100,39 @@ h1 {
 .courses-list li:focus {
   font-weight: bolder;
 }
+/* COURSE DETAILS */
+.course-details {
+  border: 1px solid grey;
+  padding: 2em;
+}
+.course-details > p {
+  width: 75%;
+}
+.available-courses {
+  display: flex;
+  /* justify-content: space-around; */
+}
+.available-course {
+  padding: 1em;
+}
+.available-course > h3 {
+  font-size: 1em;
+}
+.available-course > p {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+.fa-star,
+.fa-star-half-stroke,
+.star-color {
+  color: rgb(255, 174, 0);
+  font-size: 0.5em;
+}
+.python {
+  border: 1px solid black;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  margin: 1em;
+  color: #1c1d1f;
+  font-weight: bolder;
+}
