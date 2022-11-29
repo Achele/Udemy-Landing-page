@@ -164,6 +164,12 @@ h1 {
   border: 2px solid yellow;
   /* height: 100%; */
 }
+.bestseller {
+  background: yellow;
+  padding: 0.5em;
+  margin: 0.5em;
+  font-size: 0.5em;
+}
 
 /* FEATURED */
 .featured {
@@ -174,4 +180,67 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
+}
+.trends {
+  padding: 1em;
+  /* margin: 1em; */
+}
+.explore {
+  padding: 1em 0.5em;
+  font-weight: bolder;
+}
+
+/* INSTRUTOR */
+.instructor {
+  padding: 2em;
+}
+.instructor-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+.instructor-details {
+  width: 30%;
+  line-height: 1.5;
+}
+.instructor-details h3 {
+  font-size: 2em;
+}
+.teach {
+  padding: 1em;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+/* PARTNERS */
+.partners {
+  text-align: center;
+  background: rgb(244, 247, 249);
+  padding: 2em;
+}
+.partners-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+/* BUSINESS */
+.business {
+  padding: 2em;
+}
+.business-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business-text > img {
+  width: 200px;
+}
+.business-text {
+  width: 30%;
+  line-height: 1.5;
 }
