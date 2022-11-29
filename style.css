@@ -204,7 +204,7 @@ h1 {
   width: 30%;
   line-height: 1.5;
 }
-.instructor-details h3 {
+.instructor-details > h3 {
   font-size: 2em;
 }
 .teach {
@@ -243,4 +243,25 @@ h1 {
 .business-text {
   width: 30%;
   line-height: 1.5;
+}
+.business-text > h3 {
+  font-size: 3em;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+}
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.language {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  border: 1px solid white;
+  padding: 1em;
 }
