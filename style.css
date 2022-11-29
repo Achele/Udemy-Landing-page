@@ -252,16 +252,37 @@ h1 {
 footer {
   background: black;
   color: white;
+  padding: 2em;
 }
 .footer-list {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  /* font-size: .7em; */
+  /* justify-content: space-around; */
 }
 .language {
   display: flex;
   align-items: center;
   /* justify-content: space-around; */
   border: 1px solid white;
+  width: 100px;
   padding: 1em;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-list ul {
+  margin: 2em;
+}
+.udemy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.udemy > img {
+  width: 100px;
+  color: white;
 }
