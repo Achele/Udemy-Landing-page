@@ -161,7 +161,7 @@ nav button {
 
   /* right: -10px; */
 }
-.biz-card {
+/* .biz-card {
   background: white;
   padding: 1em 0.3em;
   width: 20%;
@@ -170,16 +170,37 @@ nav button {
   right: 350px;
   text-align: center;
   display: none;
-}
+} */
 .biz-btn {
   width: 90%;
   padding: 1em;
   margin-top: 1em;
 }
-.biz:hover .biz-card {
+.biz-card:hover .biz-card {
   display: block;
-  cursor: pointer;
 }
+.drop-nav-content {
+  display: none;
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  z-index: 2;
+  background: white;
+  padding: 1em 0.3em;
+  right: 350px;
+  top: 72px;
+  /* bottom: 0px; */
+}
+.teach-content {
+  right: 280px;
+}
+.drop-nav:hover .drop-nav-content {
+  display: block;
+}
+/* .biz:hover .biz-card {
+  display: box;
+  cursor: pointer;
+} */
 h2 {
   font-size: 2.5em;
   font-weight: 500;
