@@ -194,6 +194,15 @@ nav button {
 .teach-content {
   right: 280px;
 }
+.cart-content {
+  right: 200px;
+}
+.grey {
+  color: grey;
+}
+.purple {
+  color: purple;
+}
 .drop-nav:hover .drop-nav-content {
   display: block;
 }
