@@ -196,6 +196,7 @@ nav button {
 }
 .cart-content {
   right: 200px;
+  font-size: 1.5em;
 }
 .grey {
   color: grey;
@@ -288,6 +289,53 @@ h2 {
   color: #1c1d1f;
   font-weight: bolder;
   font-size: 0.8em;
+}
+.tooltip {
+  position: relative;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100%;
+  background: white;
+  position: absolute;
+  z-index: 2;
+  top: -5px;
+  left: 3%;
+  border: 1px solid;
+  padding: 0.5em 1em;
+}
+.tooltip .tooltiptext::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: white;
+  z-index: 1;
+}
+#right {
+  top: -8px;
+  left: 120%;
+}
+#right::before {
+  top: 35%;
+  left: -2%;
+}
+#left {
+  top: -8px;
+  right: 120%;
+}
+#left::before {
+  top: 35%;
+  left: 94%;
+}
+.tooltiptext > h3 {
+  font-size: 1em;
+}
+.green {
+  font-size: 0.7em;
+  color: green;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* VIEWINGS */
